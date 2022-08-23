@@ -1,0 +1,84 @@
+/* -- font -- */
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat.ttf");
+}
+body{
+    font-family: "Montserrat";
+}
+/* -- typography -- */
+.text_primary{
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: #1F2431;
+    margin: 0;
+}
+.text_secondary{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1F2431;
+    margin: 0;
+}
+.text_black{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #1F2431;
+    margin: 0;
+}
+.text_fade{
+    color: #82899B;
+    font-size: 1rem;
+}
+.text_items{
+    color: #1F2431 !important;
+}
+.text_small{
+    font-weight: 300;
+    font-size: 0.63rem;
+    color: #1F2431;
+}
+.text_little{
+    font-size: 0.75rem;
+    font-weight: 300;
+    color: #82899B;
+    margin: 0;
+}
+.p_primary{
+    font-weight: 300;
+    color: #82899B;
+    margin: 0;
+}
+.btn_primary{
+    background: #315EFB;
+    color: #FFFFFF;
+    border-radius: 51px;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+.btn_secondary{
+    background: #315EFB;
+    color: #FFFFFF;
+    border: 1px solid #315EFB;
+    border-radius: 0 6px 6px 0;
+    font-size: 0.88rem;
+}
+/* -- header -- */
+.header_logo{
+    width: 120px;
+    height: 25px;
+}
+/* -- main -- */
+.main{
+    min-height: 550px;
+}
+/* -- jumbotron -- */
+.jumbotron{
+    padding: 2rem 2rem;
+    background: #FAFCFF;
+    border-radius: 6px;
+}
+/* -- footer_input -- */
+.footer_input{
+    border: 1px solid #82899B;
+    border-radius: 6px 0 0 6px;
+}
