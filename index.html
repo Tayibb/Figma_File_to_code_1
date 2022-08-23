@@ -1,375 +1,378 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Day3</title>
-    <!-- link-bootstrap-css -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- link-style-css -->
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-    <!-- header -->
-    <header>
-        <div class="container">
-            <!-- header_navbar -->
-            <nav class="navbar navbar-expand-lg navbar-light mt-3">
-                <!-- header_logo -->
-                <div class="header_logo">
-                    <img  class="img-fluid" src="images/Logo.svg" alt="logo_image">
-                </div>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <!-- header_items -->
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav pl-4">
-                        <li class="nav-item">
-                            <a class="nav-link px-3 text-center py-sm-4 py-lg-0 text_items" href="#">How it works</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link px-3 text-center py-sm-4 py-lg-0 text_items" href="#">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link px-3 text-center py-sm-4 py-lg-0 text_items" href="#">Support</a>
-                        </li>
-                    </ul>
-                    <!-- header_icons -->
-                    <div class="header_icons d-flex justify-content-sm-center ml-lg-auto">
-                        <a class="pl-1" href="#"><img src="images/twitter.svg" alt="icon_img"></a>
-                        <a class="pl-1" href="#"><img src="images/producthunt.svg" alt="icon_img"></a>
-                        <a class="pl-1" href="#"><img src="images/github.svg" alt="icon_img"></a>
-                        <a class="pl-1" href="#"><img src="images/reddit.svg" alt="icon_img"></a>
-                        <a class="pl-1" href="#"><img src="images/bitcointalk.svg" alt="icon_img"></a>
-                        <a class="pl-1" href="#"><img src="images/blockstack.svg" alt="icon_img"></a>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Day3</title>
+        <!-- link-bootstrap-css -->
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <!-- link-style-css -->
+        <link rel="stylesheet" href="css/styles.css" />
+    </head>
+    <body>
+        <!-- header -->
+        <header>
+            <div class="container">
+                <!-- header_navbar -->
+                <nav class="navbar navbar-expand-lg navbar-light mt-3">
+                    <!-- header_logo -->
+                    <div class="header_logo">
+                        <img class="img-fluid" src="images/Logo.svg" alt="logo_image" />
                     </div>
-                </div>
-            </nav>
-        </div>
-    </header>
-    <!-- main -->
-    <section class="main d-flex align-items-center mb-4">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-lg-5">
-                    <!-- main_text -->
-                    <div class="main_text my-sm-5 my-lg-0 offset-1 pt-xl-5">
-                        <h1 class="text_primary pt-lg-5">Create your first decentralized wallet</h1>
-                        <p class="py-4 p_primary">The easiest way to manage multiple cryptocurrency assets</p>
-                        <button class="btn btn_primary px-4 mt-1">Create wallet</button>
-                    </div>
-                </div>
-                <!-- main_img -->
-                <div class="col-12 col-lg-7">
-                    <div class="main_img my-sm-5 my-lg-0 d-flex justify-content-sm-center justify-content-lg-start">
-                        <img class="img-fluid" src="images/main_img.svg" alt="main_image">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- middle -->
-    <section class="middle mb-lg-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-lg-6">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="jumbotron">
-                                <p class="p_primary">Dappy is light wallet powered by Blockstack. It uses Gaia decentralized storage and encryption option. Dappy doesn't store or proceed user private key, the all data are securely stored in the Gaia. Dappy was created by the BC Net that trust in crypto and decentralized applications.</p>
-                            </div>
-                        </div>
-                        <!-- source -->
-                        <div class="col-12">
-                            <div class="jumbotron">
-                                <h2 class="text_secondary">Free and open source</h2>
-                                <div class="jumbotron_img py-5 d-flex justify-content-center">
-                                    <img class="img-fluid" src="images/source.svg" alt="layer_img">
-                                </div>
-                                <p class="p_primary">Fully open and transparent wallet. Our code is
-                                <span class="font-weight-bold text-dark">open source </span> and trusted by Blockstack Team.</p>
-                            </div>
-                        </div>
-                        <!-- Roadmap -->
-                        <div class="col-12">
-                            <div class="jumbotron">
-                                <h3 class="text_secondary mb-5">Roadmap</h3>
-                                <div class="row">
-                                    <div class="col-4">
-                                        <div class="jumbotron_img d-flex">
-                                            <div class="jumbotron_circle pr-1">
-                                                <img src="images/circle.svg" alt="circle_img">
-                                            </div>
-                                            <img src="images/line.svg" alt="line_img">
-                                        </div>
-                                        <h4 class="text_small pt-2">May 2018</h4>
-                                        <ul class="pl-0 list-unstyled">
-                                            <li class="text_little">Blockstack</li>
-                                            <li class="text_little">Autorisation</li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-4">
-                                        <div class="jumbotron_img d-flex">
-                                            <div class="jumbotron_circle pr-1">
-                                                <img src="images/circle.svg" alt="circle_img">
-                                            </div>
-                                            <img src="images/line.svg" alt="line_img">
-                                        </div>
-                                        <ul class="pl-0 pt-4 list-unstyled">
-                                            <li class="text_little">Decentralized</li>
-                                            <li class="text_little">storage Gaia</li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-4">
-                                        <div class="jumbotron_img">
-                                            <div class="jumbotron_circle">
-                                                <img src="images/circle.svg" alt="circle_img">
-                                            </div>
-                                        </div>
-                                        <ul class="pl-0 pt-4 list-unstyled">
-                                            <li class="text_little">BTC,ETH,ETC,LTC</li>
-                                            <li class="text_little">BCH,BTG,DOGE,</li>
-                                            <li class="text_little">DCR,DACH</li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-4">
-                                        <div class="jumbotron_img d-flex">
-                                            <div class="jumbotron_circle pr-1">
-                                                <img src="images/circle.svg" alt="circle_img">
-                                            </div>
-                                            <img src="images/line.svg" alt="line_img">
-                                        </div>
-                                        <ul class="pl-0 pt-4 list-unstyled">
-                                            <li class="text_little">Support</li>
-                                            <li class="text_little">ERC20 tokens</li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-4">
-                                        <div class="jumbotron_img d-flex">
-                                            <div class="jumbotron_circle pr-1">
-                                                <img src="images/circle.svg" alt="circle_img">
-                                            </div>
-                                            <img src="images/line.svg" alt="line_img">
-                                        </div>
-                                        <ul class="pl-0 pt-4 list-unstyled">
-                                            <li class="text_little">Support</li>
-                                            <li class="text_little">Custom token</li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-4">
-                                        <div class="jumbotron_img d-flex">
-                                            <div class="jumbotron_circle pr-1">
-                                                <img src="images/circle.svg" alt="circle_img">
-                                            </div>
-                                        </div>
-                                        <h4 class="text_small pt-2">June 2018</h4>
-                                        <ul class="pl-0 list-unstyled">
-                                            <li class="text_little">Exchange powered</li>
-                                            <li class="text_little">by ShapeShift</li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-4">
-                                        <div class="jumbotron_img d-flex">
-                                            <div class="jumbotron_circle pr-1">
-                                                <img src="images/circle_blue.svg" alt="circle_img">
-                                            </div>
-                                            <img src="images/arrow_line.svg" alt="line_img">
-                                        </div>
-                                        <h4 class="text_small pt-2">2018 – 2019</h4>
-                                        <ul class="pl-0 list-unstyled">
-                                            <li class="text_little">Add more coins:</li>
-                                            <li class="text_little">ZEC, DCR, XRP...</li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-4">
-                                        <div class="jumbotron_img d-flex">
-                                            <div class="jumbotron_circle pr-1">
-                                                <img src="images/circle_light.svg" alt="circle_img">
-                                            </div>
-                                            <img src="images/arrow_line.svg" alt="line_img">
-                                        </div>
-                                        <ul class="pl-0 pt-4 list-unstyled">
-                                            <li class="text_little">Blockstack</li>
-                                            <li class="text_little">contact list</li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-4">
-                                        <div class="jumbotron_img">
-                                            <div class="jumbotron_circle">
-                                                <img src="images/circle_light.svg" alt="circle_img">
-                                            </div>
-                                        </div>
-                                        <ul class="pl-0 pt-4 list-unstyled">
-                                            <li class="text_little">Support token</li>
-                                            <li class="text_little">for each coins</li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-4">
-                                        <div class="jumbotron_img d-flex">
-                                            <div class="jumbotron_circle pr-1">
-                                                <img src="images/circle_light.svg" alt="circle_img">
-                                            </div>
-                                            <img src="images/arrow_line.svg" alt="line_img">
-                                        </div>
-                                        <ul class="pl-0 pt-4 list-unstyled">
-                                            <li class="text_little">Support private key</li>
-                                            <li class="text_little">in different formats</li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-4">
-                                        <div class="jumbotron_img d-flex">
-                                            <div class="jumbotron_circle pr-1">
-                                                <img src="images/circle_light.svg" alt="circle_img">
-                                            </div>
-                                            <img src="images/arrow_line.svg" alt="line_img">
-                                        </div>
-                                        <ul class="pl-0 pt-4 list-unstyled">
-                                            <li class="text_little">Multilanguage</li>
-                                            <li class="text_little">support</li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-4">
-                                        <div class="jumbotron_img">
-                                            <div class="jumbotron_circle">
-                                                <img src="images/circle_light.svg" alt="circle_img">
-                                            </div>
-                                        </div>
-                                        <ul class="pl-0 pt-4 list-unstyled">
-                                            <li class="text_little">Different UI</li>
-                                            <li class="text_little">themes</li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-4">
-                                        <div class="jumbotron_img d-flex">
-                                            <div class="jumbotron_circle pr-1">
-                                                <img src="images/circle_light.svg" alt="circle_img">
-                                            </div>
-                                            <img src="images/arrow_line.svg" alt="line_img">
-                                        </div>
-                                        <ul class="pl-0 pt-4 list-unstyled">
-                                            <li class="text_little">Ledger, Trezor</li>
-                                            <li class="text_little">integrations</li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-4">
-                                        <div class="jumbotron_img d-flex">
-                                            <div class="jumbotron_circle pr-1">
-                                                <img src="images/circle_light.svg" alt="circle_img">
-                                            </div>
-                                            <img src="images/arrow_line.svg" alt="line_img">
-                                        </div>
-                                        <ul class="pl-0 pt-4 list-unstyled">
-                                            <li class="text_little">In-app marketplace</li>
-                                            <li class="text_little">or DApp browser</li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-4">
-                                        <div class="jumbotron_img">
-                                            <div class="jumbotron_circle">
-                                                <img src="images/dots.svg" alt="dots_img">
-                                            </div>
-                                        </div>
-                                        <ul class="pl-0 pt-4 list-unstyled">
-                                            <li class="text_little">and lots more</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> 
-                <div class="col-12 col-lg-6">
-                    <div class="row">
-                        <!-- multi-currencies -->
-                        <div class="col-12">
-                            <div class="jumbotron">
-                                <h4 class="text_secondary">Multi-currencies</h4>
-                                <div class="jumbotron_img py-5 d-flex justify-content-center">
-                                    <img class="img-fluid" src="images/multi_currencies.svg" alt="layer_img">
-                                </div>
-                                <p class="p_primary">Receive, send and store the most popular coins, like Bitcoin, Ethereum, Litecoin, Dash and lots more.</p>
-                            </div>
-                        </div>
-                        <!-- Tokens -->
-                        <div class="col-12">
-                            <div class="jumbotron">
-                                <h5 class="text_secondary">Tokens</h5>
-                                <div class="jumbotron_img py-5 d-flex justify-content-center">
-                                    <img class="img-fluid" src="images/tokens.svg" alt="layer_img">
-                                </div>
-                                <p class="p_primary">Full support for any tokens on Ethereum network.
-                                Bitcoin tokens (Omnilayer) is coming soon.</p>
-                            </div>
-                        </div>
-                        <!-- Exchange -->
-                        <div class="col-12">
-                            <div class="jumbotron">
-                                <h6 class="text_secondary">Exchange</h6>
-                                <p class="p_primary py-4">In-app exchange is supported by ShapeShift, it allows to convert coins to each other in the most <br> intuitive and easiest way.</p>
-                                <div class="jumbotron_img py-2 d-flex justify-content-center">
-                                    <img class="img-fluid" src="images/exchange.svg" alt="layer_img">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>   
-            </div>
-        </div> 
-    </section>
-    <!-- footer -->
-    <footer class="py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-3">
-                    <!-- footer_about -->
-                    <div class="footer_about py-sm-0 py-md-5">
-                        <h1 class="text_black text-sm-center text-md-left">About</h1>
-                        <ul class="pl-0 pt-4 list-unstyled text-sm-center text-md-left">
-                            <li class="text_fade">Introducing</li>
-                            <li class="text_fade">Terms of Service</li>
-                            <li class="text_fade">Privacy Policy</li>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- header_items -->
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav pl-4">
+                            <li class="nav-item">
+                                <a class="nav-link px-3 text-center py-sm-4 py-lg-0 text_items" href="#">How it works</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-3 text-center py-sm-4 py-lg-0 text_items" href="#">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-3 text-center py-sm-4 py-lg-0 text_items" href="#">Support</a>
+                            </li>
                         </ul>
+                        <!-- header_icons -->
+                        <div class="header_icons d-flex justify-content-sm-center ml-lg-auto">
+                            <a class="pl-1" href="#"><img src="images/twitter.svg" alt="icon_img" /></a>
+                            <a class="pl-1" href="#"><img src="images/producthunt.svg" alt="icon_img" /></a>
+                            <a class="pl-1" href="#"><img src="images/github.svg" alt="icon_img" /></a>
+                            <a class="pl-1" href="#"><img src="images/reddit.svg" alt="icon_img" /></a>
+                            <a class="pl-1" href="#"><img src="images/bitcointalk.svg" alt="icon_img" /></a>
+                            <a class="pl-1" href="#"><img src="images/blockstack.svg" alt="icon_img" /></a>
+                        </div>
                     </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <!-- footer_contact -->
-                    <div class="footer_contact py-5">
-                        <h2 class="text_black pb-3 text-sm-center text-md-left">Contact</h2>
-                        <a class="d-inline-block text-sm-center text-md-left w-100 text_fade" href="#">hello@dappywallet.com</a>
-                        <!-- footer_icons -->
-                        <div class="footer_icons d-flex pt-4 justify-content-sm-center justify-content-md-start">
-                            <a class="pl-1" href="#"><img src="images/twitter.svg" alt="social_img"></a>
-                            <a class="pl-1" href="#"><img src="images/producthunt.svg" alt="social_img"></a>
-                            <a class="pl-1" href="#"><img src="images/github.svg" alt="social_img"></a>
-                            <a class="pl-1" href="#"><img src="images/reddit.svg" alt="social_img"></a>
-                            <a class="pl-1" href="#"><img src="images/bitcointalk.svg" alt="social_img"></a>
-                            <a class="pl-1" href="#"><img src="images/blockstack.svg" alt="social_img"></a>
+                </nav>
+            </div>
+        </header>
+        <!-- main -->
+        <section class="main d-flex align-items-center mb-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-5">
+                        <!-- main_text -->
+                        <div class="main_text my-sm-5 my-lg-0 offset-1 pt-xl-5">
+                            <h1 class="text_primary pt-lg-5">Create your first decentralized wallet</h1>
+                            <p class="py-4 p_primary">The easiest way to manage multiple cryptocurrency assets</p>
+                            <button class="btn btn_primary px-4 mt-1">Create wallet</button>
+                        </div>
+                    </div>
+                    <!-- main_img -->
+                    <div class="col-12 col-lg-7">
+                        <div class="main_img my-sm-5 my-lg-0 d-flex justify-content-sm-center justify-content-lg-start">
+                            <img class="img-fluid" src="images/main_img.svg" alt="main_image" />
                         </div>
                     </div>
                 </div>
-               <div class="col-12 col-lg-5">
-                    <!-- footer_email -->
-                    <div class="footer_email py-5">
-                        <h3 class="pb-3 text-sm-center text-md-left text_black">Newsletter</h3>
-                        <p class="text-sm-center text-md-left text_fade">Please enter your e-mail if want to receive updates.</p>
-                        <form class="d-flex justify-content-sm-center justify-content-md-start">
-                            <input type="email" class="footer_input pl-3 py-2 text_little" name="Your email" placeholder="Your email">
-                            <button class="btn btn_secondary">Subscribe</button>
-                        </form>
-                        <p class="text_little pt-5 text-sm-center text-md-left">Designed by <span class="text-dark font-weight-bold">Hodl Horse,</span> Developed by <span class="text-dark font-weight-bold">BC Net</span></p>
+            </div>
+        </section>
+        <!-- middle -->
+        <section class="middle mb-lg-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="jumbotron">
+                                    <p class="p_primary">
+                                        Dappy is light wallet powered by Blockstack. It uses Gaia decentralized storage and encryption option. Dappy doesn't store or proceed user private key, the all data are securely stored in the Gaia.
+                                        Dappy was created by the BC Net that trust in crypto and decentralized applications.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- source -->
+                            <div class="col-12">
+                                <div class="jumbotron">
+                                    <h2 class="text_secondary">Free and open source</h2>
+                                    <div class="jumbotron_img py-5 d-flex justify-content-center">
+                                        <img class="img-fluid" src="images/source.svg" alt="layer_img" />
+                                    </div>
+                                    <p class="p_primary">Fully open and transparent wallet. Our code is <span class="font-weight-bold text-dark">open source </span> and trusted by Blockstack Team.</p>
+                                </div>
+                            </div>
+                            <!-- Roadmap -->
+                            <div class="col-12">
+                                <div class="jumbotron">
+                                    <h3 class="text_secondary mb-5">Roadmap</h3>
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <div class="jumbotron_img d-flex">
+                                                <div class="jumbotron_circle pr-1">
+                                                    <img src="images/circle.svg" alt="circle_img" />
+                                                </div>
+                                                <img src="images/line.svg" alt="line_img" />
+                                            </div>
+                                            <h4 class="text_small pt-2">May 2018</h4>
+                                            <ul class="pl-0 list-unstyled">
+                                                <li class="text_little">Blockstack</li>
+                                                <li class="text_little">Autorisation</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="jumbotron_img d-flex">
+                                                <div class="jumbotron_circle pr-1">
+                                                    <img src="images/circle.svg" alt="circle_img" />
+                                                </div>
+                                                <img src="images/line.svg" alt="line_img" />
+                                            </div>
+                                            <ul class="pl-0 pt-4 list-unstyled">
+                                                <li class="text_little">Decentralized</li>
+                                                <li class="text_little">storage Gaia</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="jumbotron_img">
+                                                <div class="jumbotron_circle">
+                                                    <img src="images/circle.svg" alt="circle_img" />
+                                                </div>
+                                            </div>
+                                            <ul class="pl-0 pt-4 list-unstyled">
+                                                <li class="text_little">BTC,ETH,ETC,LTC</li>
+                                                <li class="text_little">BCH,BTG,DOGE,</li>
+                                                <li class="text_little">DCR,DACH</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="jumbotron_img d-flex">
+                                                <div class="jumbotron_circle pr-1">
+                                                    <img src="images/circle.svg" alt="circle_img" />
+                                                </div>
+                                                <img src="images/line.svg" alt="line_img" />
+                                            </div>
+                                            <ul class="pl-0 pt-4 list-unstyled">
+                                                <li class="text_little">Support</li>
+                                                <li class="text_little">ERC20 tokens</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="jumbotron_img d-flex">
+                                                <div class="jumbotron_circle pr-1">
+                                                    <img src="images/circle.svg" alt="circle_img" />
+                                                </div>
+                                                <img src="images/line.svg" alt="line_img" />
+                                            </div>
+                                            <ul class="pl-0 pt-4 list-unstyled">
+                                                <li class="text_little">Support</li>
+                                                <li class="text_little">Custom token</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="jumbotron_img d-flex">
+                                                <div class="jumbotron_circle pr-1">
+                                                    <img src="images/circle.svg" alt="circle_img" />
+                                                </div>
+                                            </div>
+                                            <h4 class="text_small pt-2">June 2018</h4>
+                                            <ul class="pl-0 list-unstyled">
+                                                <li class="text_little">Exchange powered</li>
+                                                <li class="text_little">by ShapeShift</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="jumbotron_img d-flex">
+                                                <div class="jumbotron_circle pr-1">
+                                                    <img src="images/circle_blue.svg" alt="circle_img" />
+                                                </div>
+                                                <img src="images/arrow_line.svg" alt="line_img" />
+                                            </div>
+                                            <h4 class="text_small pt-2">2018 – 2019</h4>
+                                            <ul class="pl-0 list-unstyled">
+                                                <li class="text_little">Add more coins:</li>
+                                                <li class="text_little">ZEC, DCR, XRP...</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="jumbotron_img d-flex">
+                                                <div class="jumbotron_circle pr-1">
+                                                    <img src="images/circle_light.svg" alt="circle_img" />
+                                                </div>
+                                                <img src="images/arrow_line.svg" alt="line_img" />
+                                            </div>
+                                            <ul class="pl-0 pt-4 list-unstyled">
+                                                <li class="text_little">Blockstack</li>
+                                                <li class="text_little">contact list</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="jumbotron_img">
+                                                <div class="jumbotron_circle">
+                                                    <img src="images/circle_light.svg" alt="circle_img" />
+                                                </div>
+                                            </div>
+                                            <ul class="pl-0 pt-4 list-unstyled">
+                                                <li class="text_little">Support token</li>
+                                                <li class="text_little">for each coins</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="jumbotron_img d-flex">
+                                                <div class="jumbotron_circle pr-1">
+                                                    <img src="images/circle_light.svg" alt="circle_img" />
+                                                </div>
+                                                <img src="images/arrow_line.svg" alt="line_img" />
+                                            </div>
+                                            <ul class="pl-0 pt-4 list-unstyled">
+                                                <li class="text_little">Support private key</li>
+                                                <li class="text_little">in different formats</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="jumbotron_img d-flex">
+                                                <div class="jumbotron_circle pr-1">
+                                                    <img src="images/circle_light.svg" alt="circle_img" />
+                                                </div>
+                                                <img src="images/arrow_line.svg" alt="line_img" />
+                                            </div>
+                                            <ul class="pl-0 pt-4 list-unstyled">
+                                                <li class="text_little">Multilanguage</li>
+                                                <li class="text_little">support</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="jumbotron_img">
+                                                <div class="jumbotron_circle">
+                                                    <img src="images/circle_light.svg" alt="circle_img" />
+                                                </div>
+                                            </div>
+                                            <ul class="pl-0 pt-4 list-unstyled">
+                                                <li class="text_little">Different UI</li>
+                                                <li class="text_little">themes</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="jumbotron_img d-flex">
+                                                <div class="jumbotron_circle pr-1">
+                                                    <img src="images/circle_light.svg" alt="circle_img" />
+                                                </div>
+                                                <img src="images/arrow_line.svg" alt="line_img" />
+                                            </div>
+                                            <ul class="pl-0 pt-4 list-unstyled">
+                                                <li class="text_little">Ledger, Trezor</li>
+                                                <li class="text_little">integrations</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="jumbotron_img d-flex">
+                                                <div class="jumbotron_circle pr-1">
+                                                    <img src="images/circle_light.svg" alt="circle_img" />
+                                                </div>
+                                                <img src="images/arrow_line.svg" alt="line_img" />
+                                            </div>
+                                            <ul class="pl-0 pt-4 list-unstyled">
+                                                <li class="text_little">In-app marketplace</li>
+                                                <li class="text_little">or DApp browser</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="jumbotron_img">
+                                                <div class="jumbotron_circle">
+                                                    <img src="images/dots.svg" alt="dots_img" />
+                                                </div>
+                                            </div>
+                                            <ul class="pl-0 pt-4 list-unstyled">
+                                                <li class="text_little">and lots more</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="row">
+                            <!-- multi-currencies -->
+                            <div class="col-12">
+                                <div class="jumbotron">
+                                    <h4 class="text_secondary">Multi-currencies</h4>
+                                    <div class="jumbotron_img py-5 d-flex justify-content-center">
+                                        <img class="img-fluid" src="images/multi_currencies.svg" alt="layer_img" />
+                                    </div>
+                                    <p class="p_primary">Receive, send and store the most popular coins, like Bitcoin, Ethereum, Litecoin, Dash and lots more.</p>
+                                </div>
+                            </div>
+                            <!-- Tokens -->
+                            <div class="col-12">
+                                <div class="jumbotron">
+                                    <h5 class="text_secondary">Tokens</h5>
+                                    <div class="jumbotron_img py-5 d-flex justify-content-center">
+                                        <img class="img-fluid" src="images/tokens.svg" alt="layer_img" />
+                                    </div>
+                                    <p class="p_primary">Full support for any tokens on Ethereum network. Bitcoin tokens (Omnilayer) is coming soon.</p>
+                                </div>
+                            </div>
+                            <!-- Exchange -->
+                            <div class="col-12">
+                                <div class="jumbotron">
+                                    <h6 class="text_secondary">Exchange</h6>
+                                    <p class="p_primary py-4">
+                                        In-app exchange is supported by ShapeShift, it allows to convert coins to each other in the most <br />
+                                        intuitive and easiest way.
+                                    </p>
+                                    <div class="jumbotron_img py-2 d-flex justify-content-center">
+                                        <img class="img-fluid" src="images/exchange.svg" alt="layer_img" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </footer>
-    <!-- link-jquery-js -->
-    <script src="js/jquery.min.js"></script>
-    <!-- link-popper-js -->
-    <script src="js/popper.min.js"></script>
-    <!-- link-bootstrap-js -->
-    <script src="js/bootstrap.min.js"></script>
-</body>
+        </section>
+        <!-- footer -->
+        <footer class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <!-- footer_about -->
+                        <div class="footer_about py-sm-0 py-md-5">
+                            <h1 class="text_black text-sm-center text-md-left">About</h1>
+                            <ul class="pl-0 pt-4 list-unstyled text-sm-center text-md-left">
+                                <li class="text_fade">Introducing</li>
+                                <li class="text_fade">Terms of Service</li>
+                                <li class="text_fade">Privacy Policy</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <!-- footer_contact -->
+                        <div class="footer_contact py-5">
+                            <h2 class="text_black pb-3 text-sm-center text-md-left">Contact</h2>
+                            <a class="d-inline-block text-sm-center text-md-left w-100 text_fade" href="#">hello@dappywallet.com</a>
+                            <!-- footer_icons -->
+                            <div class="footer_icons d-flex pt-4 justify-content-sm-center justify-content-md-start">
+                                <a class="pl-1" href="#"><img src="images/twitter.svg" alt="social_img" /></a>
+                                <a class="pl-1" href="#"><img src="images/producthunt.svg" alt="social_img" /></a>
+                                <a class="pl-1" href="#"><img src="images/github.svg" alt="social_img" /></a>
+                                <a class="pl-1" href="#"><img src="images/reddit.svg" alt="social_img" /></a>
+                                <a class="pl-1" href="#"><img src="images/bitcointalk.svg" alt="social_img" /></a>
+                                <a class="pl-1" href="#"><img src="images/blockstack.svg" alt="social_img" /></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-5">
+                        <!-- footer_email -->
+                        <div class="footer_email py-5">
+                            <h3 class="pb-3 text-sm-center text-md-left text_black">Newsletter</h3>
+                            <p class="text-sm-center text-md-left text_fade">Please enter your e-mail if want to receive updates.</p>
+                            <form class="d-flex justify-content-sm-center justify-content-md-start">
+                                <input type="email" class="footer_input pl-3 py-2 text_little" name="Your email" placeholder="Your email" />
+                                <button class="btn btn_secondary">Subscribe</button>
+                            </form>
+                            <p class="text_little pt-5 text-sm-center text-md-left">Designed by <span class="text-dark font-weight-bold">Hodl Horse,</span> Developed by <span class="text-dark font-weight-bold">BC Net</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- link-jquery-js -->
+        <script src="js/jquery.min.js"></script>
+        <!-- link-popper-js -->
+        <script src="js/popper.min.js"></script>
+        <!-- link-bootstrap-js -->
+        <script src="js/bootstrap.min.js"></script>
+    </body>
 </html>
